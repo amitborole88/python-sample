@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_amitborole88_python_sample_1703854149137-push-trigger-input-set
+  identifier: Build_amitborole88_python_sample_1703854149137pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: BuildPythonharness
+  pipeline:
+    identifier: Build_amitborole88_python_sample_1703854149137
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
