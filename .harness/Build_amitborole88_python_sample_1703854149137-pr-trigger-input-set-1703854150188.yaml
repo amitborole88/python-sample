@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_amitborole88_python_sample_1703854149137-pr-trigger-input-set
+  identifier: Build_amitborole88_python_sample_1703854149137prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: BuildPythonharness
+  pipeline:
+    identifier: Build_amitborole88_python_sample_1703854149137
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
